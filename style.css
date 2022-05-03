@@ -10,8 +10,8 @@
 }
 
 body {
-  /* background: linear-gradient(to bottom, #ffffff, #d6dedc); */
-  background-color: #eef0f1;
+  background: linear-gradient(to bottom, #ffffff, #d6dedc);
+  /* background-color: #eef0f1; */
 }
 
 .calculator {
