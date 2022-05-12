@@ -6,39 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="calculator">
       <div class="calculator-grid">
         <div class="output">
-          <div class="previous-operand">123 +</div>
-          <div class="current-operand">67</div>
+          <div data-previous-operand class="previous-operand"></div>
+          <div data-current-operand class="current-operand"></div>
         </div>
-        <button class="clear">C</button>
-        <button class="operators-2">(</button>
-        <button class="operators-2">)</button>
-        <button class="operators">x</button>
-        <button class="operators-2">√</button>
-        <button class="operators-2">%</button>
-        <button class="operators-2">±</button>
-        <button class="operators">÷</button>
-        <button class="numbers">7</button>
-        <button class="numbers">8</button>
-        <button class="numbers">9</button>
-        <button class="operators">-</button>
-        <button class="numbers">4</button>
-        <button class="numbers">5</button>
-        <button class="numbers">6</button>
-        <button class="operators">+</button>
-        <button class="numbers">1</button>
-        <button class="numbers">2</button>
-        <button class="numbers">3</button>
-        <button class="span-two equals">=</button>
-        <button class="numbers">.</button>
-        <button class="numbers">0</button>
-        <button class="del">⌫</button>
+        <button data-all-clear class="clear">C</button>
+        <button data-operation class="operators-2">(</button>
+        <button data-operation class="operators-2">)</button>
+        <button data-operation class="operators">*</button>
+        <button data-operation class="operators-2">√</button>
+        <button data-operation class="operators-2">%</button>
+        <button data-operation class="operators-2">±</button>
+        <button data-operation class="operators">÷</button>
+        <button data-number class="numbers">7</button>
+        <button data-number class="numbers">8</button>
+        <button data-number class="numbers">9</button>
+        <button data-operation class="operators">-</button>
+        <button data-number class="numbers">4</button>
+        <button data-number class="numbers">5</button>
+        <button data-number class="numbers">6</button>
+        <button data-operation class="operators">+</button>
+        <button data-number class="numbers">1</button>
+        <button data-number class="numbers">2</button>
+        <button data-number class="numbers">3</button>
+        <button data-equals class="span-two equals">=</button>
+        <button data-number class="numbers">.</button>
+        <button data-number class="numbers">0</button>
+        <button data-delete class="del">⌫</button>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
