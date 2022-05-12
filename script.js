@@ -72,13 +72,13 @@ class Calculator {
     }
 
     this.currentOperand = result
-    this.operation = undefined
+    this.operation = ''
     this.previousOperand = ''
   }
 
   updateDisplay() {
     this.currentOperandTextELement.textContent = this.currentOperand
-    if (this.operation !== null) {
+    if (this.operation !== undefined) {
       this.previousOperandTextELement.textContent = `${this.previousOperand} ${this.operation}`
     } else {
       this.previousOperandTextELement.textContent = ''
